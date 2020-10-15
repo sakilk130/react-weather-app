@@ -5,7 +5,11 @@
 html {
   background-color: darkseagreen;
 }
+.app-name {
+  font-size: 2.3rem;
+}
 
+/* app box */
 .App {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@ html {
   width: 500px;
   min-height: 440px;
   /* background-color: #ffffff; */
-  background-color: rgba(226, 226, 226, 0.6);
+  background-color: rgba(226, 226, 226, 0.2);
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -31,15 +35,44 @@ html {
   font-size: 16px;
   background-color: white;
   /* background-color: rgba(226, 226, 226, 0.6); */
-  background-image: url('./components/img/searchicon.jpg');
+  background-image: url(./components/img/searchicon.jpg);
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-
 .city-search:focus {
   width: 60%;
   /* background-color: white; */
+}
+
+/* city name */
+.city-name {
+  font-size: 1.25em;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+/* current date */
+.date {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+/* weather icon and temp */
+.icon-temp {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1e2432;
+  text-align: center;
+}
+.deg {
+  font-size: 2rem;
+}
+
+/* weather description and wind speed */
+.des-wind {
+  font-weight: 500;
 }
