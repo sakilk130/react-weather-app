@@ -2,7 +2,7 @@
 
 This is a sample react weather app.
 
-Live Demo [here]().
+Live Demo [here](https://react-weather-app-v1.netlify.app/).
 
 ## Instructions
 
@@ -29,3 +29,4 @@ $ npm start # or yarn start
 - Reactjs
 - React Hooks
 - Display API Data Using Axios with React
+- [API](https://openweathermap.org/api)
