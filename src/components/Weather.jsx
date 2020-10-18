@@ -76,10 +76,6 @@ function Weather() {
     }
   };
 
-  useEffect(() => {
-    console.log('Weather', weather);
-  }, [weather]);
-
   return (
     <div>
       <h1 className="app-name">
